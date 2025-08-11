@@ -5,3 +5,7 @@ After that unzip them using command `gunzip *.gz`
 
 #### Run the script `./run_pipeline_fast.sh genome.fa annotation.gtf tf_gene_list.tsv` 
 This will generate directoirs all the TF regulated Upstream region
+
+#### Background file generation
+If .fa file already exist than remove the above 2 line and run using
+`.\human_bg.sh`
